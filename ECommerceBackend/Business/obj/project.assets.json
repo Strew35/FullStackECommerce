@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "DataAccess >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\USER\\.nuget\\packages\\": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Business\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +71,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

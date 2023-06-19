@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WB9UfsfuQsHaxfc2uMlPSUoarULx2ezdVEGlFGnyuwBKs037WN148uxOU046ju9lePWAVRujG4tbuucWjLnfJg==",
+  "dgSpecHash": "/hweN76nTRphKM5V1ZxFdG8sw0831Pcewaf9+icQBPEvl2tQEV0xuXbxpfTHgyXMTg2dDcPYIR1W0gcfuXk+og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

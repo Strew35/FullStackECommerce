@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bbuwA4IUL31x4LfGR7RqQENEkBP/TW74cxR/j1IrS4+hjlnqww5mN8QIn6Y1x/+/4hGKr3ykjQM53MPOw3ZrVA==",
+  "dgSpecHash": "AOMthLy0ZYyQslvkY6Ezh7UYqiNraWfjz1te9EneaBaqsSjYrk554A0VPNjrLrN+QreY41Z/if6TfuXEu4lfvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

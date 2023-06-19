@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\C#\\ECommerce\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\_desktop\\programming\\GitHub\\FullStackECommerce\\ECommerceBackend\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
