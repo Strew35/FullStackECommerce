@@ -1,15 +1,18 @@
-﻿using Entities.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core.Entities;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Concrete
 {
+    [Table("Categories")]
     public class Category:IEntity
     {
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
+        [Key]
+        [Column("Id", Order = 1)]
+        public ushort Id { get; set; }
+
+        [Required]
+        [Column("Name",TypeName ="nvarchar(64)")]
+        public string Name { get; set; }
     }
 }
